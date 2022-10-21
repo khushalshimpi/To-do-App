@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: #4e4cff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: #fff;
+    width: 50%;
+    height: 60%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container h1{
+   text-align: center;
+   margin-top: 40px;
+}
+
+.newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+
+.newtask input{
+    width: 460px;
+    font-size: 15px;
+    border: 2px solid #df43d4;
+    padding: 12px;
+    color: black;
+    position: relative;
+    border-radius: 5px;
+}
+#add{
+     border: 2px solid #df43d4;
+    padding: 12px;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tasks{
+    background: aliceblue;
+    padding: 30px 0px;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.task{
+    border: 2px solid #df43d4;
+    background-color: #fff;
+    height: 50px;
+    margin-bottom: 8px;
+    padding-left: 5px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.delete{
+    border: 2px solid #df43d4;
+   padding: 12px;
+   color: black;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.taskCheckbox{
+     border: 2px solid #df43d4;
+   padding: 12px;
+   color: black;
+   border-radius: 5px;
+   cursor: pointer;
+}
